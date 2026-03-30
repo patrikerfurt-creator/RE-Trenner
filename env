@@ -1,0 +1,32 @@
+# RE-Trenner Konfiguration
+# Diese Datei NICHT ins Git einchecken!
+
+# Ordner-Pfade
+WATCH_FOLDER=C:\Program Files\Python_Rechnungen\ARNEU
+LOG_FOLDER=C:\Program Files\Python_Rechnungen\LOG-PY
+ARTR_FOLDER=C:\Program Files\Python_Rechnungen\ARTR
+HOTFOLDER_NET=C:\Program Files\Python_Rechnungen\Hotfolder_Net
+HOTFOLDER_SFTP=C:\Program Files\Python_Rechnungen\Hotfolder_SFTP
+
+# Netzwerk-Zielordner
+NETWORK_FOLDER=\\192.168.161.11\daten\1-DOPRE
+
+# Poppler (PDF-Rendering)
+POPPLER_PATH=C:\Program Files\poppler\Library\bin
+
+# Drucker
+PRINTER_NAME=FFM Drucker_PS
+
+# SFTP-Zugangsdaten
+SFTP_HOST=sftp.hidrive.strato.com
+SFTP_PORT=22
+SFTP_USER=store-6343
+SFTP_PASS=DEIN_PASSWORT_HIER
+SFTP_TARGET=/users/store-6343/Buchhaltung STB/15444-40005/Rechnungsausgang
+
+# SMTP-Zugangsdaten
+SMTP_SERVER=smtp.strato.de
+SMTP_PORT=587
+SMTP_USER=Postmaster@demmehvw.de
+SMTP_PASS=DEIN_PASSWORT_HIER
+SMTP_RECIPIENT=p.maurer@demme-immobilien.de

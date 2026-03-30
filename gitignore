@@ -1,0 +1,47 @@
+# ── Konfiguration & Secrets ───────────────────────────────────────────────────
+.env
+*.env
+*.env.*
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# Virtuelle Umgebungen
+venv/
+.venv/
+env/
+.env/
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+LOG-PY/
+
+# ── Laufzeit-Ordner (werden automatisch erstellt) ─────────────────────────────
+ARNEU/
+ARTR/
+Hotfolder_Net/
+Hotfolder_SFTP/
+
+# ── Windows ───────────────────────────────────────────────────────────────────
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ── IDE / Editor ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ── Sonstiges ─────────────────────────────────────────────────────────────────
+*.tmp
+*.bak
+*.swp
