@@ -1,0 +1,10 @@
+V1 funktionert 
+V2 soll die Rechnungsnummern extrahierne
+V2 funktioniert bis hierhin wie es soll
+Nun muss noch geregelt werden, dass eine Kopie in den Rechnungsordner für den STB abgelegt wird und in Docuware
+V3 scheint sauber zu laufen. 
+Jetzt muss das noch als richtiger dienst geschrieben werden.
+V3 Läuft jetzt als Dienst, lässt sich jedoch nicht sauber stoppen. 
+Das muss noch eingebaut werden und benötigt eine Testphase. Außerdem muss der Log verbessert werden.
+Offensichtlich werden die Rechnungen nicht sauber in Docuware abgelegt. auch hier muss der Log verbessert werden. ich möchte eine Mail wenn einer der Ablageprozesse nicht ordentlich funktioniert.
+
